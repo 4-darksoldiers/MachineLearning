@@ -1,3 +1,7 @@
+"""
+作者：谢乐凡
+修改者：叶佳晨
+"""
 from __future__ import division
 
 import math
