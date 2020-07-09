@@ -171,6 +171,7 @@ class ExonIntron_predict:
         if flag1:
             li = model.getResult()
             result = Toplevel(self.root)
+            result.title("预测结果")
             c = Canvas(result, width=600, height=800)
             c.pack()
             y = 800/(2+len(li)/500)
