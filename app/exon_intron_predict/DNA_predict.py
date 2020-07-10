@@ -103,9 +103,9 @@ class ExonIntron_predict:
         code = StringVar()
         code.set(self.code.get())
         confirm = StringVar()
-        Label(win, text="用  户 名：", font=("幼圆", 13)).grid(
+        Label(win, text="用 户 名：", font=("幼圆", 13)).grid(
             row=1, column=0, sticky=E, pady=10)
-        Label(win, text="密      码：", font=("幼圆", 13)).grid(
+        Label(win, text="密    码：", font=("幼圆", 13)).grid(
             row=2, column=0, sticky=E, pady=10)
         Label(win, text="确认密码：", font=("幼圆", 13)).grid(
             row=3, column=0, sticky=E, pady=10)
